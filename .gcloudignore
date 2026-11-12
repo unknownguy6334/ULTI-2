@@ -1,0 +1,24 @@
+.git/
+.github/
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+cookies.txt
+cookies*.txt
+*.cookies
+storage-state.json
+playwright/.auth/
+.aistudio/auth/
+*.dump
+*.backup
+*.sql.gz
+backups/
+*.log
+scripts/test-*.mjs
+scripts/test-*.ts
+*_RED_TEAM_FINAL_REPORT.md
+
+# Temporary AI Studio media/artifacts (not application source)
+.aistudio/artifacts/
